@@ -29,7 +29,8 @@ class VideoController extends Controller
     {
         $validator = Validator::make($request->all(), [
             "title" => "required",
-            "source" => "required"
+            "image_source" => "required",
+            "video_source" => "required"
         ]);
 
 
@@ -86,7 +87,8 @@ class VideoController extends Controller
     {
         $validator = Validator::make($request->all(), [
             "title" => "required",
-            "source" => "required"
+            "image_source" => "required",
+            "video_source" => "required"
         ]);
 
 
